@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pytube-playlist"
+version = "0.1.0"
+description = ""
+authors = ["Hendrek Rodrigues <llhendrek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pytube_playlist"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytube = "^15.0.0"
+youtube-dl = "^2021.12.17"
+colorama = "^0.4.6"
+moviepy = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
